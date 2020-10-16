@@ -9,6 +9,14 @@ public class diskon {
             double price, disc, pricePay;
             String card;
 
+            System.out.println("Keterangan diskon:");
+            System.out.println("- Dengan kartu member:");
+            System.out.println("  Diskon 5% untuk total belanja lebih dari Rp 500.000,~");
+            System.out.println("  Diskon 10% untuk total belanja lebih dari Rp 1.000.000,~");
+            System.out.println("- Tanpa kartu member:");
+            System.out.println("  Diskon 2.5% untuk total belanja lebih dari Rp 500.000,~");
+            System.out.println(" ");
+            
             System.out.print("Apakah mempunyai kartu member ?: ");
             card = dataIn.nextLine();
             System.out.print("Total belanja: ");
